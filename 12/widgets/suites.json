@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"d5b01dd304ac74cde8970b9d47ee2a2d","name":"org.play80days.e2e.LoginTest","statistic":{"failed":0,"broken":0,"skipped":0,"passed":12,"unknown":0,"total":12}},{"uid":"ccbf14d284e2edd0e9486b41db74d40f","name":"org.play80days.e2e.ProductsTest","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
