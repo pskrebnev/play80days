@@ -28,10 +28,10 @@ jobs:
         run: ./gradlew test --info -Dgroups=smoke
       - name: Run Regression Tests in Chromium
         run: ./gradlew test --info -Dgroups=regression
-#      - name: Run Smoke Tests in Firefox
-#        run: ./gradlew test --info -Dbrowser=firefox -Dgroups=smoke
-#      - name: Run Regression Tests in Firefox
-#        run: ./gradlew test --info -Dbrowser=firefox -Dgroups=regression
+      - name: Run Smoke Tests in Firefox
+        run: ./gradlew test --info -Dbrowser=firefox -Dgroups=smoke
+      - name: Run Regression Tests in Firefox
+        run: ./gradlew test --info -Dbrowser=firefox -Dgroups=regression
       - name: Test marketplace action
         uses: simple-elf/allure-report-action@master
         if: always()
