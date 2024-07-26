@@ -26,9 +26,9 @@ RUN bundle install
 COPY ./wsite /app/
 
 # Expose the port for Jekyll server (if needed)
-EXPOSE 4040
+#EXPOSE 4000
 
 # Start Jekyll server
 #CMD ["jekyll", "serve", "--force_polling", "--livereload"]
-CMD ["jekyll", "serve", "--host", "0.0.0.0", "--port", "4000", "--watch"]
+#CMD ["jekyll", "serve", "--host", "127.0.0.1", "--port", "4000", "--watch"]
 
