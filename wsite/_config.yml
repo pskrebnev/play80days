@@ -14,6 +14,7 @@ remote_theme: username/theme-name # For using themes hosted elsewhere
 plugins: # Jekyll plugins you want to use
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
