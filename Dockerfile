@@ -27,7 +27,7 @@ RUN gem install jekyll -v 3.9.5
 WORKDIR /app
 
 # Copy the Gemfile and index.Gemfile.lock
-COPY Gemfile* ./wsite /app/
+COPY Gemfile* ./docs /app/
 
 # Install project dependencies
 RUN bundle install
