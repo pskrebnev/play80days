@@ -82,4 +82,4 @@ sass:
 deploy:
   type: git
   repo: git@github.com:username/your-repo-name.git # Your GitHub repository URL
-  branch: gh-pages # Branch to deploy to
+  branch: main # Branch to deploy to
