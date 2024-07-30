@@ -11,3 +11,4 @@ public class BaseDto {
   @Parsed(field = "Test Case ID", defaultNullRead = "")
   private String testCaseId;
 }
+
