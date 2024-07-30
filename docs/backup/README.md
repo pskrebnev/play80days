@@ -120,7 +120,7 @@ The project is structured as follows:
 ## Basic Usage
 
 - ### Configuration
-  The project uses a [*config.properties*](./src/test/resources/config.properties) file to manage global configurations such as browser type and base url.
+  The project uses a [*config.properties*](../../src/test/resources/config.properties) file to manage global configurations such as browser type and base url.
   
   1. To add a new property, register a new entry in this file.
       ```
@@ -182,12 +182,12 @@ The project is structured as follows:
    ```
    Note that the class extends from BaseDto and thus, inherits the attribute `Test Case ID`.
 
-   Now, in the [*testdata*](./src/test/resources/testdata) folder you can add a csv file `user.csv` for `User` with the below contents and use it in your tests.
+   Now, in the [*testdata*](../../src/test/resources/testdata) folder you can add a csv file `user.csv` for `User` with the below contents and use it in your tests.
    ```
    Test Case ID,First Name,Last Name
    TC-1,Tahanima,Chowdhury
    ```
-   For reference, check [this](./src/main/java/io/github/tahanima/dto/LoginDto.java), [this](./src/test/resources/testdata/login.csv) and [this](./src/test/java/io/github/tahanima/e2e/LoginTest.java).
+   For reference, check [this](./src/main/java/io/github/tahanima/dto/LoginDto.java), [this](../../src/test/resources/testdata/login.csv) and [this](./src/test/java/io/github/tahanima/e2e/LoginTest.java).
 
 - ### Page Objects and Page Component Objects
   The project uses [*Page Objects* and *Page Component Objects*](https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/) to capture the relevant behaviors of a web page. Check the [*ui*](./src/main/java/io/github/tahanima/ui) package for reference.
