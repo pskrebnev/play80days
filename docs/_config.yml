@@ -10,7 +10,7 @@ github_username:  username # Your GitHub username
 
 # Build settings
 theme: minima # The theme you want to use
-remote_theme: username/theme-name # For using themes hosted elsewhere
+#remote_theme: username/theme-name # For using themes hosted elsewhere
 plugins: # Jekyll plugins you want to use
   - jekyll-feed
   - jekyll-seo-tag
