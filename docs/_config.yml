@@ -4,7 +4,7 @@ email: your-email@example.com # Your email address
 description: > # Description of your site
   Write an awesome description for your new site here. You can use Markdown like this.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # Your website URL
+url: "" # Your website URL
 twitter_username: username # Your Twitter username
 github_username:  username # Your GitHub username
 
