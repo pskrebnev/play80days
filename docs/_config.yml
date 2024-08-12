@@ -1,85 +1,20 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title: Super web agency # Your website title
-email: your-email@example.com # Your email address
-description: > # Description of your site
-  Write an awesome description for your new site here. You can use Markdown like this.
+title: Testing '80days.me' with Playwright
+email: pavel.skrabneu@dxc.com
+description: A simple testing framework with Playwright + Java
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # Your website URL
-twitter_username: username # Your Twitter username
-github_username:  username # Your GitHub username
+url: "http://localhost:4000/" # the base hostname & protocol for your site
+github_username:  pskrebnev
+paginate: 5
+theme-dark: false #Set to true to change to dark website theme
 
+plugins: [jekyll-paginate, kramdown]
 # Build settings
-# theme: minima # The theme you want to use
-#remote_theme: username/theme-name # For using themes hosted elsewhere
-plugins: # Jekyll plugins you want to use
-  - jekyll-feed
-#  - jekyll-seo-tag
-#  - jekyll-paginate
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed below can be explicitly included by placing it in the
-# `includes` directory.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-# Include files
-include:
-  - _pages
-
-# Defaults for layouts
-defaults:
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-
-# Pagination settings
-paginate: 5 # Number of posts per page
-paginate_path: /page/:num # URL structure for pagination
-
-# Markdown settings
-markdown_ext: markdown,mkdown,mkdn,mkd,md # Markdown extensions to use
-
-# Collections
-collections:
-  projects: # Custom collection named 'projects'
-    output: true # Generate pages for this collection
-
-# Comments settings (Disqus)
-disqus:
-  shortname: your-disqus-shortname # Your Disqus shortname
-
-# Google Analytics settings
-google_analytics:
-  tracking_id: UA-XXXXXXXX-X # Your Google Analytics tracking ID
-
-# Other settings
-kramdown:
-  input: GFM # Markdown parser to use
-  hard_wrap: false # Wrap long lines at spaces instead of characters
-  auto_ids: true # Automatically generate IDs for headers
-  footnote_nr: 1 # Starting number for footnotes
-  entity_output: as_char # Output special characters as characters
-  toc_levels: 1..6 # Heading levels to include in the table of contents
-  smart_quotes: lsquo,rsquo,ldquo,rdquo # Smart quote characters to use
-  enable_coderay: false # Disable syntax highlighting using CodeRay
-
-# Sass/SCSS settings
-sass:
-  sass_dir: _sass
-  style: compressed # Output style for CSS (compressed, expanded, nested, compact)
-
-# Deployment settings
-deploy:
-  type: git
-  repo: git@github.com:username/your-repo-name.git # Your GitHub repository URL
-  branch: main # Branch to deploy to
+markdown: kramdown
