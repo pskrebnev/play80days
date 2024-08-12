@@ -2,7 +2,11 @@
 layout: post
 title: Why we use Jekyll
 date: 2023-07-09 12:00
-author: Jimm Ferdinand
+author: Jimmy Ferdinand
+image: http://placehold.it/900x300 
+lead: "If there is a lesson to be learned, it is the futility of seeking
+          fulfillment in outer space. We need to judge ourselfs by who we are, not by where we
+          go."
 ---
 
 {% include subpage-header.html %}
@@ -10,19 +14,6 @@ author: Jimm Ferdinand
 <!--POST HTML-->
 <article id="post">Content. Very big content</article>
 
-<!-- Call to action Start -->
-<section id="call-to-action">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <h2>We design delightful digital experiences.</h2>
-          <p>Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design.</p>
-          <a class="btn btn-default btn-call-to-action" href="#" >Tell Us Your Story</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include call-to-action.html %}
 
 
