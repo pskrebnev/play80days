@@ -1,5 +1,5 @@
 # Create Jekyll container from a Ruby Alpine image
-FROM ruby:2.7-alpine3.15
+FROM ruby:3.1-alpine3.20
 
 RUN apk add --no-cache \
     build-base \
@@ -21,13 +21,13 @@ RUN gem update --system 3.3.26 && \
     gem install bundler
 
 # Install Jekyll 3.9.5
-RUN gem install jekyll -v 3.9.5
+RUN gem install jekyll -v 4.3.2
 
 # Set the working directory
-WORKDIR /app
+WORKDIR /usr/src/app
 
 # Copy the Gemfile and index.Gemfile.lock
-COPY Gemfile* ./docs /app/
+COPY Gemfile* ./docs /usr/src/app/
 
 # Install project dependencies
 RUN bundle install
