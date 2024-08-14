@@ -23,9 +23,7 @@ jobs:
           cache-version: 0 # Increment this number if you need to re-download cached gems
           working-directory: '${{ github.workspace }}/docs'
       - name: Bundle install
-        uses: ruby/bundler@v1
-        with:
-          path: docs
-#        run: bundle install
+        run: bundle install
+        working-directory: docs
       - name: Build with Jekyll
         run: bundle exec jekyll build
