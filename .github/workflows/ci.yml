@@ -26,7 +26,8 @@ jobs:
         ruby-version: ${{ matrix.ruby-version }}
         bundler-cache: false
     - name: Bundle Install (Jekyll ${{ matrix.jekyll-version }})
-      run: bundle install
+      run: |
+        bundle install --retry 3
       env:
         BUNDLE_GEMFILE: fixtures/Gemfile-jekyll-${{ matrix.jekyll-version }}
     - name: Init Search
@@ -51,7 +52,7 @@ jobs:
     - name: Bundle Install
       run: bundle install
       env:
-        BUNDLE_GEMFILE: fixtures/Gemfile-github-pages
+        BUNDLE_GEMFILE: Gemfile-github-pages
     - name: Build Site
       run: bundle exec jekyll build
       env:
