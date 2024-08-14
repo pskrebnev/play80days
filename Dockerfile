@@ -24,10 +24,10 @@ RUN gem update --system 3.3.26 && \
 RUN gem install jekyll -v 4.3.2
 
 # Set the working directory
-WORKDIR /app
+WORKDIR /usr/src/app
 
 # Copy the Gemfile and index.Gemfile.lock
-COPY Gemfile* ./docs /app/
+COPY Gemfile* ./docs /usr/src/app/
 
 # Install project dependencies
 RUN bundle install
