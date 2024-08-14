@@ -38,6 +38,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+#        from ai -- begin
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+#        from ai -- end
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
