@@ -26,6 +26,6 @@ jobs:
         uses: ruby/bundler@v1
         with:
           path: docs
-        run: bundle install
+#        run: bundle install
       - name: Build with Jekyll
         run: bundle exec jekyll build

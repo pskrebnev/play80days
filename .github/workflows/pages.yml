@@ -46,7 +46,7 @@ jobs:
         uses: ruby/bundler@v1
         with:
           path: docs
-        run: bundle install
+#        run: bundle install
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
