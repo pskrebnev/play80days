@@ -1,9 +1,9 @@
 # Setup
 title: Poole
 tagline: The Jekyll Butler
-url: https://getpoole.com
+url: "https://pskrebnev.github.io/"
 paginate: 1
-baseurl: ""
+baseurl: "play80days/"
 permalink: pretty
 
 # Gems
