@@ -13,12 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Just the Docs
-description: A Jekyll theme for documentation
+title: Testing 80days.me
+description: Testing website '80days.me' with Playwright+Java+JUnit
 baseurl: "/play80days" # the subpath of your site, e.g. /blog
-#url: "https://pskrebnev.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://pskrebnev.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-repository: just-the-docs/just-the-docs # for github-metadata
+repository: https://github.com/pskrebnev/play80days # for github-metadata
 
 permalink: pretty
 
@@ -55,7 +54,7 @@ exclude:
 
 # Enable or disable the site search
 # Supports true (default) or false
-search_enabled: true
+search_enabled: false
 search:
   # Split pages into sections that can be searched individually
   # Supports 1 - 6, default: 2
@@ -83,7 +82,7 @@ search:
   focus_shortcut_key: 'k'
 
 # For copy button on code
-enable_copy_code_button: true
+enable_copy_code_button: false
 
 # By default, consuming the theme as a gem leaves mermaid disabled; it is opt-in
 mermaid:
@@ -104,8 +103,8 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
-    - "https://github.com/just-the-docs/just-the-docs"
+  "Project's repo":
+    - "https://github.com/pskrebnev/play80days"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -120,8 +119,8 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
 nav_external_links:
-  - title: Just the Docs on GitHub
-    url: https://github.com/just-the-docs/just-the-docs
+  - title: 80days
+    url: https://app.eightydays.me/
 
 liquid:
    error_mode: strict
@@ -134,7 +133,7 @@ liquid:
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a> <a href=\"https://www.netlify.com/\">This site is powered by Netlify.</a>"
+footer_content: "Copyright &copy; 2024 by me. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a> <a href=\"https://www.netlify.com/\">This site is powered by Netlify.</a>"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter

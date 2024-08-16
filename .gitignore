@@ -22,4 +22,4 @@ atlassian-ide-plugin.xml
 src/test/resources/testvideo/
 ajcore*.txt
 
-
+docs/Gemfile.lock
