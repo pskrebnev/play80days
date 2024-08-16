@@ -1,3 +1,15 @@
+### Build ###
+## From command line ##
+# "docker build -t <name>:<tag> ."
+
+### Run locally ###
+## From command line ##
+# "docker run -p 4000:4000 -v "/${PWD}/docs":/usr/src/app <name>:<tag> jekyll serve --host 0.0.0.0"
+
+### Generate ###
+## From command line of Docker container ##
+# "jekyll build"
+
 # Create Jekyll container from a Ruby Alpine image
 FROM ruby:3.1-alpine3.20
 
