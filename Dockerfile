@@ -30,7 +30,7 @@ RUN gem update --system 3.3.26 && \
     gem install bundler
 
 # Install Jekyll 4.3.2
-RUN gem install jekyll -v 4.3.2
+RUN gem install jekyll -v 3.9.5
 
 # Set the working directory
 WORKDIR /usr/src/app
