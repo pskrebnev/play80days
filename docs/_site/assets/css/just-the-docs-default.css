@@ -7661,4 +7661,69 @@ blockquote.warning-title > p:last-child {
   margin-bottom: 0;
 }
 
+p.description, blockquote.description {
+  background: rgba(149, 147, 150, 0.2);
+  border-left: 4px solid #27262b;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: 0.8rem;
+}
+p.description::before, blockquote.description::before {
+  color: #27262b;
+  content: "Description";
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+p.description > .description-title, blockquote.description > .description-title {
+  color: #27262b;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+
+p.description-title, blockquote.description-title {
+  background: rgba(149, 147, 150, 0.2);
+  border-left: 4px solid #27262b;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: 0.8rem;
+}
+p.description-title > p:first-child, blockquote.description-title > p:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #27262b;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+
+blockquote.description {
+  margin-left: 0;
+  margin-right: 0;
+}
+blockquote.description > p:first-child {
+  margin-top: 0;
+}
+blockquote.description > p:last-child {
+  margin-bottom: 0;
+}
+
+blockquote.description-title {
+  margin-left: 0;
+  margin-right: 0;
+}
+blockquote.description-title > p:nth-child(2) {
+  margin-top: 0;
+}
+blockquote.description-title > p:last-child {
+  margin-bottom: 0;
+}
+
 /*# sourceMappingURL=just-the-docs-default.css.map */
