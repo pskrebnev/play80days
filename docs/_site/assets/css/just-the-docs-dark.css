@@ -1480,7 +1480,7 @@ body {
   vertical-align: text-bottom;
 }
 .nav-list .nav-list-item .nav-list-link.active {
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
 }
 .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
