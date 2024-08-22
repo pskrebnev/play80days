@@ -155,7 +155,7 @@
   },"22": {
     "doc": "Prerequisites",
     "title": "Prerequisites",
-    "content": ". | GithHub account | JDK | Some knowledge in CLI | Any code editor (up-to-you: VS Code, IntelliJ IDEA, Sublime etc.) | Cloned or forked Project or see Original | . ",
+    "content": ". | GithHub account | JDK | Some knowledge in CLI | Any code editor (up-to-you: VS Code, IntelliJ IDEA, Sublime etc.) | Cloned or forked Project (or see Original repo) | . ",
     "url": "/play80days/howtostart/prerequisites",
     
     "relUrl": "/howtostart/prerequisites"

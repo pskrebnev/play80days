@@ -13,7 +13,7 @@ permalink: /howtostart/prerequisites
 * JDK
 * Some knowledge in CLI
 * Any code editor (up-to-you: VS Code, IntelliJ IDEA, Sublime etc.)
-* Cloned or forked [Project] or see [Original]
+* Cloned or forked [Project] (or see [Original] repo)
 
 ---
 [Project]: https://github.com/pskrebnev/play80days
