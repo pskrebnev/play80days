@@ -17,15 +17,12 @@ Discover why Play80Days is the go-to solution for developers looking to simplify
 testing with Playwright. Start your journey towards more efficient and reliable testing today!
 
 ## News:
-
 Stay [updated] on the latest developments and features.
 
 ## Resources:
-
 Explore the [tools and technologies] used to build Play80Days.
 
 ----
-
 [updated]: ./../news-updates/
 
 [tools and technologies]: ./../resources-tools/

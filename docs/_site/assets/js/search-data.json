@@ -78,123 +78,95 @@
   },"11": {
     "doc": "Installation/Setting Up",
     "title": "Installation/Setting Up",
-    "content": "Just the Docs has some specific configuration parameters that can be defined in your Jekyll site’s _config.yml file. ",
+    "content": "In order to use the framework: . | Clone (or fork) the repository. git clone [repository_url] [your_folder_path] . | Import/Open the project in your IDE. | Make your desired changes. | Use terminal or your IDE to run your desired tests. For example: ./gradlew test -Dbrowser=firefox -Dheadless=false . to run all the tests using the firefox browser in headed mode. | Build and browse the allure report using: ./gradlew allureServe . | . ",
     "url": "/play80days/howtostart/installation",
     
     "relUrl": "/howtostart/installation"
   },"12": {
-    "doc": "Installation/Setting Up",
-    "title": "Table of contents",
-    "content": ". | Site logo | . View this site’s _config.yml file as an example. ",
-    "url": "/play80days/howtostart/installation#table-of-contents",
-    
-    "relUrl": "/howtostart/installation#table-of-contents"
-  },"13": {
-    "doc": "Installation/Setting Up",
-    "title": "Site logo",
-    "content": "# Set a path/url to a logo that will be displayed instead of the title logo: \"/assets/images/just-the-docs.png\" . Multiple IDs . New (v0.4.0) . This theme supports multiple comma-separated tracking IDs. This helps seamlessly transition UA properties to GA4 properties by tracking both for a while. ga_tracking: \"UA-1234567-89,G-1AB234CDE5\" . ",
-    "url": "/play80days/howtostart/installation#site-logo",
-    
-    "relUrl": "/howtostart/installation#site-logo"
-  },"14": {
     "doc": "Introduction",
     "title": "Introduction",
     "content": "This testing framework is designed for automated testing of a website 80days.me. For more information about the tools, frameworks, and technologies used in this project, see Resources / Tools / Technologies section. Play80Days is a powerful and user-friendly framework designed to streamline your end-to-end testing process using Playwright. Whether you’re a seasoned developer or just starting out, our framework simplifies the complexities of browser automation, allowing you to focus on creating robust and reliable tests for your web applications. This is a pet-project created with support the company Luxoft. The project is not intended for further development. It was created to study and practically apply a set of technologies. The project is distributed under the ‘MIT License’. ",
     "url": "/play80days/howtostart/introduction",
     
     "relUrl": "/howtostart/introduction"
-  },"15": {
+  },"13": {
     "doc": "Key Features",
     "title": "Key Features",
-    "content": ". | Easy Implemented: Adapt the framework for your project in a couple of clicks. | Configuration-based architecture: Easy configured for you project needs. | Data-Driven: [TBD] | Utilizes Page Objects and Page Component Objects: [TBD] | Automated UI Testing: Ensure your web application works seamlessly across different browsers and devices. | Captures screenshot on test failure: [TBD] | Records video of test execution: [TBD] | Provides detailed test report: Gain valuable insights into test results and identify areas for improvement. | Cross-Platform Compatibility: Test your application on various operating systems and browsers. | Supports parallel test execution: [TBD] | . ",
+    "content": ". | Easy Implemented: Adapt the framework for your project in a couple of clicks. | Configuration-based architecture: Easy configured for you project needs. | Data-Driven: Data Builder is a utility class responsible for creating and managing test data. It provides a flexible way to generate data for various test scenarios, allowing testers to focus on writing test scripts rather than creating and managing test data. Data Builders can be used to create test data for different formats, such as JSON, XML, or CSV. | Utilizes Page Objects and Page Component Objects: Page Object is a design pattern that represents a web page or a section of a web page as a class. It encapsulates the properties and actions that can be performed on that page, making it easier to write and maintain test scripts. Page Objects provide a clear and concise way to interact with web pages, hiding the underlying implementation details and promoting code reusability. | Automated UI Testing: Ensure your web application works seamlessly across different browsers and devices. | ‘Captures screenshot’ / ‘Records video of test execution’: This feature allows the test automation framework to capture screenshots of the application under test at specific points during test execution. This can be particularly useful for debugging purposes, as it provides a visual representation of the application’s state at the moment of failure or when an unexpected behavior occurs. The captured screenshots can be saved to a designated directory, allowing for easy access and analysis. | . // Capture screenshot on test failure playwright.config().setScreenshotOnFailure(true); // Record video of test execution playwright.config().setRecordVideo(true); . | Provides detailed test report: Gain valuable insights into test results and identify areas for improvement. | Cross-Platform Compatibility: Test your application on various operating systems and browsers. | Supports parallel test execution: Parallel execution is a feature that enables multiple tests to run simultaneously, significantly reducing the overall test execution time. | . ",
     "url": "/play80days/howtostart/key-features",
     
     "relUrl": "/howtostart/key-features"
-  },"16": {
+  },"14": {
     "doc": "News/Updates",
     "title": "NEWS/UPDATES",
     "content": " ",
     "url": "/play80days/news-updates#newsupdates",
     
     "relUrl": "/news-updates#newsupdates"
-  },"17": {
+  },"15": {
     "doc": "News/Updates",
     "title": "WHY IS A CHARACTER ARRAY PREFERRED OVER STRING FOR STORING PASSWORDS IN JAVA?",
     "content": "August 19, 2024 17:12 . A String object is immutable in Java and is stored in the string pool. Once it’s created it stays in the pool until garbage collection completes, so even though you’re done with the password it’s a... More ... ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
-  },"18": {
+  },"16": {
     "doc": "News/Updates",
     "title": "FIRST INSTALLATION AND PUBLISHING WEBSITE ON 'GITHUB PAGES'",
     "content": "July 22, 2024 11:18 . Just the Docs is a theme for generating static websites with Jekyll. You can write source files for your web pages using Markdown, the Liquid templating language, and HTML.1 Jekyll builds your site... More ... ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
-  },"19": {
+  },"17": {
     "doc": "News/Updates",
     "title": "MAKING NEW SITE AND PAGES ON 'GITHUB PAGES'",
     "content": "July 10, 2024 10:15 . The Just the Docs Template provides the simplest, quickest, and easiest way to create a new website that uses the Just the Docs theme. To get started with creating a site, just click “use the templ... More ... ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
-  },"20": {
+  },"18": {
     "doc": "News/Updates",
     "title": "BEGINNING OF THE PROJECT",
     "content": "June 28, 2024 10:17 . Project started. Project started. Project started. Project started. Project started. Project started. Based on this fact, this method only understands the time zone abbreviations described in RFC ... More ... ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
-  },"21": {
+  },"19": {
     "doc": "News/Updates",
     "title": "NEW SITE ON 'GITHUB PAGES'",
     "content": "June 16, 2024 05:22 . Based on this fact, this method only understands the time zone abbreviations described in RFC 822 and the system time zone, in the order named. (i.e. a definition in RFC 822 overrides the system ti... More ... ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
-  },"22": {
+  },"20": {
     "doc": "News/Updates",
     "title": "HOW DO YOU CHECK IF TWO STRINGS ARE EQUAL IN JAVA?",
     "content": "May 14, 2024 16:42 . There are two ways to check if two Strings are equal. You can use the == operator or the equals() method. When you use the == operator, it checks for the value of String as well as the object refer... More ... ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
-  },"23": {
+  },"21": {
     "doc": "News/Updates",
     "title": "News/Updates",
     "content": " ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
-  },"24": {
+  },"22": {
     "doc": "Prerequisites",
     "title": "Prerequisites",
-    "content": "Just the Docs has some specific configuration parameters that can be defined in your Jekyll site’s _config.yml file. ",
+    "content": ". | GithHub account | JDK | Some knowledge in CLI | Any code editor (up-to-you: VS Code, IntelliJ IDEA, Sublime etc.) | Cloned or forked Project or see Original | . ",
     "url": "/play80days/howtostart/prerequisites",
     
     "relUrl": "/howtostart/prerequisites"
-  },"25": {
-    "doc": "Prerequisites",
-    "title": "Table of contents",
-    "content": ". | Site logo | . View this site’s _config.yml file as an example. ",
-    "url": "/play80days/howtostart/prerequisites#table-of-contents",
-    
-    "relUrl": "/howtostart/prerequisites#table-of-contents"
-  },"26": {
-    "doc": "Prerequisites",
-    "title": "Site logo",
-    "content": "# Set a path/url to a logo that will be displayed instead of the title logo: \"/assets/images/just-the-docs.png\" . Provide a path instead of a version key to load the mermaid library from a local file. When all your pages are in a single collection, its name is not displayed. The navigation for each collection is a separate name space for page titles: a page in one collection cannot be a child of a page in a different collection, or of a normal page. ",
-    "url": "/play80days/howtostart/prerequisites#site-logo",
-    
-    "relUrl": "/howtostart/prerequisites#site-logo"
-  },"27": {
+  },"23": {
     "doc": "Resources / Tools / Technologies",
     "title": "In this project the following frameworks / tools are used (all links are external):",
     "content": ". | Playwright Java Test Automation Architecture The repository that was used for this project. If you liked the code, buy the girl a coffee :) . | OpenJDK | JUnit5 | Lombok | Allure Report As a report tool . | Gradle As a build tool . | IntelliJ IDEA Community version, as a code editor . | GitHub, GitHub Pages, GitHub Actions ‘GitHub Pages’ as a hosting for this static website . | Docker Docker allowed me to gather all the tools needed for generating the website and avoid the nightmare of installing / configuring Ruby, Jekyll, etc. on my laptop . | YAML | Just the Docs on GitHub As a template for this site. In case you want to change UI please refer to the original . | Jekyll (with Liquid, Ruby, Markdown) As a static website generator . | . ",
     "url": "/play80days/resources-tools#in-this-project-the-following-frameworks--tools-are-used-all-links-are-external",
     
     "relUrl": "/resources-tools#in-this-project-the-following-frameworks--tools-are-used-all-links-are-external"
-  },"28": {
+  },"24": {
     "doc": "Resources / Tools / Technologies",
     "title": "Resources / Tools / Technologies",
     "content": " ",

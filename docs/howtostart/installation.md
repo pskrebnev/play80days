@@ -9,36 +9,28 @@ permalink: /howtostart/installation
 # Installation/Setting Up
 {: .no_toc }
 
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
-{: .fs-6 .fw-300 }
+In order to use the framework:
 
-## Table of contents
-{: .no_toc .text-delta }
+1. Clone (or fork) the repository.
 
-1. TOC
-{:toc}
+    ```bash
+    git clone [repository_url] [your_folder_path]
+    ```
 
----
+2. Import/Open the project in your IDE.
+3. Make your desired changes.
+4. Use `terminal` or your IDE to run your desired tests. For example:
 
-View this site's [\_config.yml](https://github.com/just-the-docs/just-the-docs/tree/main/_config.yml) file as an example.
+    ```
+    ./gradlew test -Dbrowser=firefox -Dheadless=false
+    ```
 
-## Site logo
+    to run all the tests using the firefox browser in headed mode.
 
-```yaml
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
-```
+5. Build and browse the allure report using:
 
-### Multiple IDs
-{: .d-inline-block .no_toc }
-
-New (v0.4.0)
-{: .label .label-green }
-
-This theme supports multiple comma-separated tracking IDs. This helps seamlessly transition UA properties to GA4 properties by tracking both for a while.
-
-```yaml
-ga_tracking: "UA-1234567-89,G-1AB234CDE5"
-```
+    ```bash
+    ./gradlew allureServe
+    ```
 
 
