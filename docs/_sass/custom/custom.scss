@@ -1,1 +1,8 @@
 // custom SCSS (or CSS) goes here
+p {
+  &.date-post {
+    font-family: $mono-font-family !important;
+    font-size: 0.8rem;
+  }
+}
+

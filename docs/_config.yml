@@ -153,7 +153,7 @@ gh_edit_branch: "main" # the branch that your docs is served from
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
 color_scheme: light
 
-callouts_level: quiet # or loud
+callouts_level: loud # quiet or loud
 callouts:
   highlight:
     color: yellow

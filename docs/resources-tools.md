@@ -42,7 +42,7 @@ As a template for this site. In case you want to change UI please refer to the o
 > {: .description }
 As a static website generator
 
-----
+---
 [Playwright Java Test Automation Architecture]: https://github.com/Tahanima/playwright-java-test-automation-architecture
 
 [OpenJDK]: https://openjdk.org/

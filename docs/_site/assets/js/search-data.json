@@ -1,192 +1,192 @@
 {"0": {
+    "doc": "How To Add New Tests",
+    "title": "How To Add New Tests",
+    "content": "[TBD] . ",
+    "url": "/play80days/howtostart/how-to-add-new-tests",
+    
+    "relUrl": "/howtostart/how-to-add-new-tests"
+  },"1": {
+    "doc": "How To Add New Tests",
+    "title": "Table of contents",
+    "content": ". ",
+    "url": "/play80days/howtostart/how-to-add-new-tests#table-of-contents",
+    
+    "relUrl": "/howtostart/how-to-add-new-tests#table-of-contents"
+  },"2": {
     "doc": "Training / Courses",
     "title": "While working on the framework, I reviewed the following courses:",
     "content": "The links provided are exclusively for Luxoft:Business accounts and only work for Luxoft employees. However, you can find similar courses on Udemy. | Jekyll: make fast, secure static sites and blogs with Jekyll . A consistent and logical course. General enough to understand the big picture and detailed enough to bring your project to life. For additional information, you can refer to the documentation or YouTube . | Ultimate Docker Fast-Track Beginner to Advanced . A decent course on Docker basics. The rest is complemented by practice. One of the key courses that helped create a site on GitHub Pages. I don’t know Ruby, Liquid etc, and I don’t want to install all that zoo on my laptop. And then maintain all the versions and plugins. All this can be done in a Docker container. | Java 7 &amp; Java 8 new features with Lambdas &amp; Streams . An interesting course on the capabilities of “Java 7” / “Java 8”. The lecturer’s pronunciation allows you to watch the videos at a speed of x1.75. The lectures are accompanied by practical examples . | Practical Java Unit Testing with JUnit 5 . The course provides an overall picture. The lecturer’s pronunciation allows videos to be watched at x2.0 speed . | GitHub Actions - The Complete Guide . A course by Maximilian Schwarzmüller. I won’t say that the course was easy for me. It’s better to brush up on Linux basics and know how specific frameworks and systems work. The rest is just practice . | Markdown Mastery: Simple yet Powerful Writing Format . Markdown is easy to use and learn. The course quickly helps you understand the basics. Practice will fill in the rest . | . ",
     "url": "/play80days/courses#while-working-on-the-framework-i-reviewed-the-following-courses",
     
     "relUrl": "/courses#while-working-on-the-framework-i-reviewed-the-following-courses"
-  },"1": {
+  },"3": {
     "doc": "Training / Courses",
     "title": "Training / Courses",
     "content": " ",
     "url": "/play80days/courses",
     
     "relUrl": "/courses"
-  },"2": {
-    "doc": "Getting Started",
-    "title": "Configuration",
-    "content": "Just the Docs has some specific configuration parameters that can be defined in your Jekyll site’s _config.yml file. ",
-    "url": "/play80days/getting-started#configuration",
-    
-    "relUrl": "/getting-started#configuration"
-  },"3": {
-    "doc": "Getting Started",
-    "title": "Table of contents",
-    "content": ". | Site logo | Site favicon | Search | Mermaid Diagrams | Aux links | Navigation sidebar | Heading anchor links | External navigation links | Footer content | Color scheme | Callouts | Google Analytics | Document collections | . View this site’s _config.yml file as an example. ",
-    "url": "/play80days/getting-started#table-of-contents",
-    
-    "relUrl": "/getting-started#table-of-contents"
   },"4": {
     "doc": "Getting Started",
-    "title": "Site logo",
-    "content": "# Set a path/url to a logo that will be displayed instead of the title logo: \"/assets/images/just-the-docs.png\" . ",
-    "url": "/play80days/getting-started#site-logo",
+    "title": "Getting Started",
+    "content": "Ready to take your testing to the next level? Explore our Getting Started sections one-by-one to dive deep into the Play80Days framework. Learn how to set up your environment, create your first test, and add new tests to your project with ease. Discover why Play80Days is the go-to solution for developers looking to simplify their end-to-end testing with Playwright. Start your journey towards more efficient and reliable testing today! . ",
+    "url": "/play80days/howtostart/start",
     
-    "relUrl": "/getting-started#site-logo"
+    "relUrl": "/howtostart/start"
   },"5": {
     "doc": "Getting Started",
-    "title": "Site favicon",
-    "content": "# Set a path/url to a favicon that will be displayed by the browser favicon_ico: \"/assets/images/favicon.ico\" . If the path to your favicon is /favicon.ico, you can leave favicon_ico unset. ",
-    "url": "/play80days/getting-started#site-favicon",
+    "title": "News:",
+    "content": "Stay updated on the latest developments and features. ",
+    "url": "/play80days/howtostart/start#news",
     
-    "relUrl": "/getting-started#site-favicon"
+    "relUrl": "/howtostart/start#news"
   },"6": {
     "doc": "Getting Started",
-    "title": "Search",
-    "content": "# Enable or disable the site search # Supports true (default) or false search_enabled: true search: # Split pages into sections that can be searched individually # Supports 1 - 6, default: 2 heading_level: 2 # Maximum amount of previews per search result # Default: 3 previews: 3 # Maximum amount of words to display before a matched word in the preview # Default: 5 preview_words_before: 5 # Maximum amount of words to display after a matched word in the preview # Default: 10 preview_words_after: 10 # Set the search token separator # Default: /[\\s\\-/]+/ # Example: enable support for hyphenated search words tokenizer_separator: /[\\s/]+/ # Display the relative url in search results # Supports true (default) or false rel_url: true # Enable or disable the search button that appears in the bottom right corner of every page # Supports true or false (default) button: false # Focus the search input by pressing `ctrl + focus_shortcut_key` (or `cmd + focus_shortcut_key` on macOS) focus_shortcut_key: 'k' . ",
-    "url": "/play80days/getting-started#search",
+    "title": "Resources:",
+    "content": "Explore the tools and technologies used to build Play80Days. ",
+    "url": "/play80days/howtostart/start#resources",
     
-    "relUrl": "/getting-started#search"
+    "relUrl": "/howtostart/start#resources"
   },"7": {
-    "doc": "Getting Started",
-    "title": "Mermaid Diagrams",
-    "content": "New (v0.4.0) . The minimum configuration requires the key for version (from jsDelivr) in _config.yml: . mermaid: # Version of mermaid library # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/ version: \"9.1.3\" . Provide a path instead of a version key to load the mermaid library from a local file. ",
-    "url": "/play80days/getting-started#mermaid-diagrams",
+    "doc": "Home",
+    "title": "Introduction",
+    "content": "Play80Days is a powerful and user-friendly framework designed to streamline your end-to-end testing process using Playwright. Whether you’re a seasoned developer or just starting out, our framework simplifies the complexities of browser automation, allowing you to focus on creating robust and reliable tests for your web applications. This is a pet-project created with support the company Luxoft. The project is not intended for further development. It was created to study and practically apply a set of technologies. The project is distributed under the ‘MIT License’. See ‘Introduction’ for full version. ",
+    "url": "/play80days/#introduction",
     
-    "relUrl": "/getting-started#mermaid-diagrams"
+    "relUrl": "/#introduction"
   },"8": {
-    "doc": "Getting Started",
-    "title": "Aux links",
-    "content": "# Aux links for the upper right navigation aux_links: \"Just the Docs on GitHub\": - \"//github.com/just-the-docs/just-the-docs\" # Makes Aux links open in a new tab. Default is false aux_links_new_tab: false . ",
-    "url": "/play80days/getting-started#aux-links",
+    "doc": "Home",
+    "title": "Key Features",
+    "content": ". | Cross-Browser Support: Test your applications seamlessly across multiple browsers, including Chrome, Firefox, and Safari, ensuring consistent performance and compatibility. | High-Speed Execution: Leverage Playwright’s advanced capabilities for lightning-fast test execution, reducing your testing cycles and speeding up your development process. | Easy Integration: Seamlessly integrate with your existing Java-based projects, making it a perfect fit for your development workflow. | Extensive Documentation: Our comprehensive documentation guides you through every step, from setting up your environment to creating and running tests. | . See Key Features for full version. ",
+    "url": "/play80days/#key-features",
     
-    "relUrl": "/getting-started#aux-links"
+    "relUrl": "/#key-features"
   },"9": {
-    "doc": "Getting Started",
-    "title": "Navigation sidebar",
-    "content": "# Enable or disable the side/mobile menu globally # Nav menu can also be selectively enabled or disabled using page variables or the minimal layout nav_enabled: true . ",
-    "url": "/play80days/getting-started#navigation-sidebar",
+    "doc": "Home",
+    "title": "Get Started Today",
+    "content": "Ready to take your testing to the next level? Explore our Getting Started guide to dive deep into the Play80Days framework. Learn how to set up your environment, create your first test, and add new tests to your project with ease. Discover why Play80Days is the go-to solution for developers looking to simplify their end-to-end testing with Playwright. Start your journey towards more efficient and reliable testing today! . ",
+    "url": "/play80days/#get-started-today",
     
-    "relUrl": "/getting-started#navigation-sidebar"
+    "relUrl": "/#get-started-today"
   },"10": {
-    "doc": "Getting Started",
-    "title": "Heading anchor links",
-    "content": "# Heading anchor links appear on hover over h1-h6 tags in page content # allowing users to deep link to a particular heading on a page. # # Supports true (default) or false heading_anchors: true . ",
-    "url": "/play80days/getting-started#heading-anchor-links",
-    
-    "relUrl": "/getting-started#heading-anchor-links"
-  },"11": {
-    "doc": "Getting Started",
-    "title": "External navigation links",
-    "content": "New (v0.4.0) . External links can be added to the navigation through the nav_external_links option. ",
-    "url": "/play80days/getting-started#external-navigation-links",
-    
-    "relUrl": "/getting-started#external-navigation-links"
-  },"12": {
-    "doc": "Getting Started",
-    "title": "Footer content",
-    "content": "# Footer content # appears at the bottom of every page's main content # Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust markup / liquid-based content. footer_content: \"Copyright &amp;copy; 2017-2020 Patrick Marsceill. Distributed by an &lt;a href=\\\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\\\"&gt;MIT license.&lt;/a&gt;\" # Footer last edited timestamp last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter last_edit_time_format: \"%b %e %Y at %I:%M %p\" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html # Footer \"Edit this page on GitHub\" link text gh_edit_link: true # show or hide edit this page link gh_edit_link_text: \"Edit this page on GitHub.\" gh_edit_repository: \"https://github.com/just-the-docs/just-the-docs\" # the github URL for your repo gh_edit_branch: \"main\" # the branch that your docs is served from # gh_edit_source: docs # the source that your files originate from gh_edit_view_mode: \"tree\" # \"tree\" or \"edit\" if you want the user to jump into the editor immediately . note: footer_content is deprecated, but still supported. For a better experience we have moved this into an include called _includes/footer_custom.html which will allow for robust markup / liquid-based content. | the “page last modified” data will only display if a page has a key called last_modified_date, formatted in some readable date format | last_edit_time_format uses Ruby’s DateTime formatter; for examples and information, please refer to the official Ruby docs on strftime formatting | gh_edit_repository is the URL of the project’s GitHub repository | gh_edit_branch is the branch that the docs site is served from; defaults to main | gh_edit_source is the source directory that your project files are stored in (should be the same as site.source) | gh_edit_view_mode is \"tree\" by default, which brings the user to the github page; switch to \"edit\" to bring the user directly into editing mode | . ",
-    "url": "/play80days/getting-started#footer-content",
-    
-    "relUrl": "/getting-started#footer-content"
-  },"13": {
-    "doc": "Getting Started",
-    "title": "Color scheme",
-    "content": "# Color scheme supports \"light\" (default) and \"dark\" color_scheme: dark . Preview dark color scheme . ",
-    "url": "/play80days/getting-started#color-scheme",
-    
-    "relUrl": "/getting-started#color-scheme"
-  },"14": {
-    "doc": "Getting Started",
-    "title": "Callouts",
-    "content": "New (v0.4.0) . To use this feature, you need to configure a color and (optionally) title for each kind of callout you want to use, e.g.: . callouts: warning: title: Warning color: red . This uses the color $red-000 for the background of the callout, and $red-300 for the title and box decoration.1 You can then style a paragraph as a warning callout like this: . {: .warning } A paragraph... The colors grey-lt, grey-dk, purple, blue, green, yellow, and red are predefined; to use a custom color, you need to define its 000 and 300 levels in your SCSS files. For example, to use pink, add the following to your _sass/custom/setup.scss file: . $pink-000: #f77ef1; $pink-100: #f967f1; $pink-200: #e94ee1; $pink-300: #dd2cd4; . You can override the default opacity of the background for a particular callout, e.g.: . callouts: custom: color: pink opacity: 0.3 . You can change the default opacity (0.2) for all callouts, e.g.: . callouts_opacity: 0.3 . You can also adjust the overall level of callouts. The value of callouts_level is either quiet or loud; loud increases the saturation and lightness of the backgrounds. The default level is quiet when using the light or custom color schemes, and loud when using the dark color scheme. ",
-    "url": "/play80days/getting-started#callouts",
-    
-    "relUrl": "/getting-started#callouts"
-  },"15": {
-    "doc": "Getting Started",
-    "title": "Google Analytics",
-    "content": "Google Analytics 4 will replace Universal Analytics. On July 1, 2023, standard Universal Analytics properties will stop processing new hits. The earlier you migrate, the more historical data and insights you will have in Google Analytics 4. Universal Analytics (UA) and Google Analytics 4 (GA4) properties are supported. # Google Analytics Tracking (optional) # Supports a CSV of tracking ID strings (eg. \"UA-1234567-89,G-1AB234CDE5\") ga_tracking: UA-2709176-10 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default) . Multiple IDs . New (v0.4.0) . This theme supports multiple comma-separated tracking IDs. This helps seamlessly transition UA properties to GA4 properties by tracking both for a while. ga_tracking: \"UA-1234567-89,G-1AB234CDE5\" . ",
-    "url": "/play80days/getting-started#google-analytics",
-    
-    "relUrl": "/getting-started#google-analytics"
-  },"16": {
-    "doc": "Getting Started",
-    "title": "Document collections",
-    "content": "By default, the navigation and search include normal pages. You can also use Jekyll collections which group documents semantically together. Collection folders always start with an underscore (_), e.g. _tests. You won’t see your collections if you omit the prefix. For example, put all your test files in the _tests folder and create the tests collection: . # Define Jekyll collections collections: # Define a collection named \"tests\", its documents reside in the \"_tests\" directory tests: permalink: \"/:collection/:path/\" output: true just_the_docs: # Define which collections are used in just-the-docs collections: # Reference the \"tests\" collection tests: # Give the collection a name name: Tests # Exclude the collection from the navigation # Supports true or false (default) # nav_exclude: true # Fold the collection in the navigation # Supports true or false (default) # nav_fold: true # note: this option is new in v0.4 # Exclude the collection from the search # Supports true or false (default) # search_exclude: true . The navigation for all your normal pages (if any) is displayed before those in collections. New (v0.4.0) Including nav_fold: true in a collection configuration folds that collection: an expander symbol appears next to the collection name, and clicking it displays/hides the links to the top-level pages of the collection.2 . You can reference multiple collections. This creates categories in the navigation with the configured names. collections: tests: permalink: \"/:collection/:path/\" output: true tutorials: permalink: \"/:collection/:path/\" output: true just_the_docs: collections: tests: name: Tests tutorials: name: Tutorials . When all your pages are in a single collection, its name is not displayed. The navigation for each collection is a separate name space for page titles: a page in one collection cannot be a child of a page in a different collection, or of a normal page. | If you use the dark color scheme, this callout uses $red-300 for the background, and $red-000 for the title. &#8617; . | New (v0.6.0) When JavaScript is disabled in the browser, all folded collections are automatically expanded, since clicking expander symbols has no effect. (In previous releases, navigation into folded collections required JavaScript to be enabled.) &#8617; . | . ",
-    "url": "/play80days/getting-started#document-collections",
-    
-    "relUrl": "/getting-started#document-collections"
-  },"17": {
-    "doc": "Getting Started",
-    "title": "Getting Started",
-    "content": " ",
-    "url": "/play80days/getting-started",
-    
-    "relUrl": "/getting-started"
-  },"18": {
     "doc": "Home",
     "title": "Home",
-    "content": "This is a framework designed for the automated testing of the website 80days.me. For more information about the tools, frameworks, and others used in this project, see Resources / Tools / Technologies. ",
+    "content": " ",
     "url": "/play80days/",
     
     "relUrl": "/"
-  },"19": {
-    "doc": "News / Updates",
-    "title": "NEWS / UPDATES",
-    "content": " ",
-    "url": "/play80days/news-updates#news--updates",
+  },"11": {
+    "doc": "Installation/Setting Up",
+    "title": "Installation/Setting Up",
+    "content": "Just the Docs has some specific configuration parameters that can be defined in your Jekyll site’s _config.yml file. ",
+    "url": "/play80days/howtostart/installation",
     
-    "relUrl": "/news-updates#news--updates"
-  },"20": {
-    "doc": "News / Updates",
-    "title": "Why is a character array preferred over String for storing passwords in Java?",
+    "relUrl": "/howtostart/installation"
+  },"12": {
+    "doc": "Installation/Setting Up",
+    "title": "Table of contents",
+    "content": ". | Site logo | . View this site’s _config.yml file as an example. ",
+    "url": "/play80days/howtostart/installation#table-of-contents",
+    
+    "relUrl": "/howtostart/installation#table-of-contents"
+  },"13": {
+    "doc": "Installation/Setting Up",
+    "title": "Site logo",
+    "content": "# Set a path/url to a logo that will be displayed instead of the title logo: \"/assets/images/just-the-docs.png\" . Multiple IDs . New (v0.4.0) . This theme supports multiple comma-separated tracking IDs. This helps seamlessly transition UA properties to GA4 properties by tracking both for a while. ga_tracking: \"UA-1234567-89,G-1AB234CDE5\" . ",
+    "url": "/play80days/howtostart/installation#site-logo",
+    
+    "relUrl": "/howtostart/installation#site-logo"
+  },"14": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": "This testing framework is designed for automated testing of a website 80days.me. For more information about the tools, frameworks, and technologies used in this project, see Resources / Tools / Technologies section. Play80Days is a powerful and user-friendly framework designed to streamline your end-to-end testing process using Playwright. Whether you’re a seasoned developer or just starting out, our framework simplifies the complexities of browser automation, allowing you to focus on creating robust and reliable tests for your web applications. This is a pet-project created with support the company Luxoft. The project is not intended for further development. It was created to study and practically apply a set of technologies. The project is distributed under the ‘MIT License’. ",
+    "url": "/play80days/howtostart/introduction",
+    
+    "relUrl": "/howtostart/introduction"
+  },"15": {
+    "doc": "Key Features",
+    "title": "Key Features",
+    "content": ". | Easy Implemented: Adapt the framework for your project in a couple of clicks. | Configuration-based architecture: Easy configured for you project needs. | Data-Driven: [TBD] | Utilizes Page Objects and Page Component Objects: [TBD] | Automated UI Testing: Ensure your web application works seamlessly across different browsers and devices. | Captures screenshot on test failure: [TBD] | Records video of test execution: [TBD] | Provides detailed test report: Gain valuable insights into test results and identify areas for improvement. | Cross-Platform Compatibility: Test your application on various operating systems and browsers. | Supports parallel test execution: [TBD] | . ",
+    "url": "/play80days/howtostart/key-features",
+    
+    "relUrl": "/howtostart/key-features"
+  },"16": {
+    "doc": "News/Updates",
+    "title": "NEWS/UPDATES",
+    "content": " ",
+    "url": "/play80days/news-updates#newsupdates",
+    
+    "relUrl": "/news-updates#newsupdates"
+  },"17": {
+    "doc": "News/Updates",
+    "title": "WHY IS A CHARACTER ARRAY PREFERRED OVER STRING FOR STORING PASSWORDS IN JAVA?",
     "content": "August 19, 2024 17:12 . A String object is immutable in Java and is stored in the string pool. Once it’s created it stays in the pool until garbage collection completes, so even though you’re done with the password it’s a... More ... ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
-  },"21": {
-    "doc": "News / Updates",
-    "title": "First installation and publishing website on 'GitHub Pages'",
+  },"18": {
+    "doc": "News/Updates",
+    "title": "FIRST INSTALLATION AND PUBLISHING WEBSITE ON 'GITHUB PAGES'",
     "content": "July 22, 2024 11:18 . Just the Docs is a theme for generating static websites with Jekyll. You can write source files for your web pages using Markdown, the Liquid templating language, and HTML.1 Jekyll builds your site... More ... ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
-  },"22": {
-    "doc": "News / Updates",
-    "title": "Making new site and pages on 'GitHub Pages'",
+  },"19": {
+    "doc": "News/Updates",
+    "title": "MAKING NEW SITE AND PAGES ON 'GITHUB PAGES'",
     "content": "July 10, 2024 10:15 . The Just the Docs Template provides the simplest, quickest, and easiest way to create a new website that uses the Just the Docs theme. To get started with creating a site, just click “use the templ... More ... ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
-  },"23": {
-    "doc": "News / Updates",
-    "title": "Beginning of the project",
+  },"20": {
+    "doc": "News/Updates",
+    "title": "BEGINNING OF THE PROJECT",
     "content": "June 28, 2024 10:17 . Project started. Project started. Project started. Project started. Project started. Project started. Based on this fact, this method only understands the time zone abbreviations described in RFC ... More ... ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
-  },"24": {
-    "doc": "News / Updates",
-    "title": "New site on 'GitHub Pages'",
+  },"21": {
+    "doc": "News/Updates",
+    "title": "NEW SITE ON 'GITHUB PAGES'",
     "content": "June 16, 2024 05:22 . Based on this fact, this method only understands the time zone abbreviations described in RFC 822 and the system time zone, in the order named. (i.e. a definition in RFC 822 overrides the system ti... More ... ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
-  },"25": {
-    "doc": "News / Updates",
-    "title": "How do you check if two Strings are equal in Java?",
+  },"22": {
+    "doc": "News/Updates",
+    "title": "HOW DO YOU CHECK IF TWO STRINGS ARE EQUAL IN JAVA?",
     "content": "May 14, 2024 16:42 . There are two ways to check if two Strings are equal. You can use the == operator or the equals() method. When you use the == operator, it checks for the value of String as well as the object refer... More ... ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
-  },"26": {
-    "doc": "News / Updates",
-    "title": "News / Updates",
+  },"23": {
+    "doc": "News/Updates",
+    "title": "News/Updates",
     "content": " ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
+  },"24": {
+    "doc": "Prerequisites",
+    "title": "Prerequisites",
+    "content": "Just the Docs has some specific configuration parameters that can be defined in your Jekyll site’s _config.yml file. ",
+    "url": "/play80days/howtostart/prerequisites",
+    
+    "relUrl": "/howtostart/prerequisites"
+  },"25": {
+    "doc": "Prerequisites",
+    "title": "Table of contents",
+    "content": ". | Site logo | . View this site’s _config.yml file as an example. ",
+    "url": "/play80days/howtostart/prerequisites#table-of-contents",
+    
+    "relUrl": "/howtostart/prerequisites#table-of-contents"
+  },"26": {
+    "doc": "Prerequisites",
+    "title": "Site logo",
+    "content": "# Set a path/url to a logo that will be displayed instead of the title logo: \"/assets/images/just-the-docs.png\" . Provide a path instead of a version key to load the mermaid library from a local file. When all your pages are in a single collection, its name is not displayed. The navigation for each collection is a separate name space for page titles: a page in one collection cannot be a child of a page in a different collection, or of a normal page. ",
+    "url": "/play80days/howtostart/prerequisites#site-logo",
+    
+    "relUrl": "/howtostart/prerequisites#site-logo"
   },"27": {
     "doc": "Resources / Tools / Technologies",
     "title": "In this project the following frameworks / tools are used (all links are external):",
