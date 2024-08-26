@@ -105,68 +105,40 @@
     "relUrl": "/news-updates#newsupdates"
   },"15": {
     "doc": "News/Updates",
-    "title": "WHY IS A CHARACTER ARRAY PREFERRED OVER STRING FOR STORING PASSWORDS IN JAVA?",
-    "content": "August 19, 2024 17:12 . A String object is immutable in Java and is stored in the string pool. Once it’s created it stays in the pool until garbage collection completes, so even though you’re done with the password it’s a... More ... ",
+    "title": "COURSE 'JEKYLL -- MAKE FAST, SECURE STATIC SITES AND BLOGS WITH JEKYLL'",
+    "content": "July 05, 2024 12:35 . Estimated time spent: 8.5 hours . More ... ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
   },"16": {
     "doc": "News/Updates",
-    "title": "FIRST INSTALLATION AND PUBLISHING WEBSITE ON 'GITHUB PAGES'",
-    "content": "July 22, 2024 11:18 . Just the Docs is a theme for generating static websites with Jekyll. You can write source files for your web pages using Markdown, the Liquid templating language, and HTML.1 Jekyll builds your site... More ... ",
+    "title": "COURSE 'JAVA 7 &amp; JAVA 8 NEW FEATURES WITH LAMBDAS &amp; STREAMS'",
+    "content": "June 12, 2024 10:20 . Estimated time spent: 35 hours This course covers the changes introduced in Java (versions 7 and 8). It’s perfect for gaining a comprehensive understanding of these changes. The course is accompanied by code examples / e... More ... ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
   },"17": {
-    "doc": "News/Updates",
-    "title": "MAKING NEW SITE AND PAGES ON 'GITHUB PAGES'",
-    "content": "July 10, 2024 10:15 . The Just the Docs Template provides the simplest, quickest, and easiest way to create a new website that uses the Just the Docs theme. To get started with creating a site, just click “use the templ... More ... ",
-    "url": "/play80days/news-updates",
-    
-    "relUrl": "/news-updates"
-  },"18": {
-    "doc": "News/Updates",
-    "title": "BEGINNING OF THE PROJECT",
-    "content": "June 28, 2024 10:17 . Project started. Project started. Project started. Project started. Project started. Project started. Based on this fact, this method only understands the time zone abbreviations described in RFC ... More ... ",
-    "url": "/play80days/news-updates",
-    
-    "relUrl": "/news-updates"
-  },"19": {
-    "doc": "News/Updates",
-    "title": "NEW SITE ON 'GITHUB PAGES'",
-    "content": "June 16, 2024 05:22 . Based on this fact, this method only understands the time zone abbreviations described in RFC 822 and the system time zone, in the order named. (i.e. a definition in RFC 822 overrides the system ti... More ... ",
-    "url": "/play80days/news-updates",
-    
-    "relUrl": "/news-updates"
-  },"20": {
-    "doc": "News/Updates",
-    "title": "HOW DO YOU CHECK IF TWO STRINGS ARE EQUAL IN JAVA?",
-    "content": "May 14, 2024 16:42 . There are two ways to check if two Strings are equal. You can use the == operator or the equals() method. When you use the == operator, it checks for the value of String as well as the object refer... More ... ",
-    "url": "/play80days/news-updates",
-    
-    "relUrl": "/news-updates"
-  },"21": {
     "doc": "News/Updates",
     "title": "News/Updates",
     "content": " ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
-  },"22": {
+  },"18": {
     "doc": "Prerequisites",
     "title": "Prerequisites",
     "content": ". | GithHub account | JDK | Some knowledge in CLI | Any code editor (up-to-you: VS Code, IntelliJ IDEA, Sublime etc.) | Cloned or forked Project (or see Original repo) | . ",
     "url": "/play80days/howtostart/prerequisites",
     
     "relUrl": "/howtostart/prerequisites"
-  },"23": {
+  },"19": {
     "doc": "Resources / Tools / Technologies",
     "title": "In this project the following frameworks / tools are used (all links are external):",
     "content": ". | Playwright Java Test Automation Architecture The repository that was used for this project. If you liked the code, buy the girl a coffee :) . | OpenJDK | JUnit5 | Lombok | Allure Report As a report tool . | Gradle As a build tool . | IntelliJ IDEA Community version, as a code editor . | GitHub, GitHub Pages, GitHub Actions ‘GitHub Pages’ as a hosting for this static website . | Docker Docker allowed me to gather all the tools needed for generating the website and avoid the nightmare of installing / configuring Ruby, Jekyll, etc. on my laptop . | YAML | Just the Docs on GitHub As a template for this site. In case you want to change UI please refer to the original . | Jekyll (with Liquid, Ruby, Markdown) As a static website generator . | . ",
     "url": "/play80days/resources-tools#in-this-project-the-following-frameworks--tools-are-used-all-links-are-external",
     
     "relUrl": "/resources-tools#in-this-project-the-following-frameworks--tools-are-used-all-links-are-external"
-  },"24": {
+  },"20": {
     "doc": "Resources / Tools / Technologies",
     "title": "Resources / Tools / Technologies",
     "content": " ",

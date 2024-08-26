@@ -7726,9 +7726,15 @@ blockquote.description-title > p:last-child {
   margin-bottom: 0;
 }
 
-p.date-post {
+p.post-date {
   font-family: "SFMono-Regular", menlo, consolas, monospace !important;
   font-size: 0.8rem;
+}
+
+div.post-date {
+  font-family: "SFMono-Regular", menlo, consolas, monospace !important;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=just-the-docs-default.css.map */
