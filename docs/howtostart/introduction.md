@@ -25,5 +25,5 @@ The project is distributed under the '[MIT License]'.
 
 [MIT License]: https://github.com/pskrebnev/play80days/blob/main/LICENSE
 
-[Resources / Tools / Technologies]: ./../resources-tools/
+[Resources / Tools / Technologies]: ./../resources-tools
 

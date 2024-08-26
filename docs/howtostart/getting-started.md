@@ -23,7 +23,7 @@ Stay [updated] on the latest developments and features.
 Explore the [tools and technologies] used to build Play80Days.
 
 ----
-[updated]: ./../news-updates/
+[updated]: ./../news-updates
 
-[tools and technologies]: ./../resources-tools/
+[tools and technologies]: ./../resources-tools
 

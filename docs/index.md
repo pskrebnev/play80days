@@ -22,7 +22,7 @@ The project is distributed under the '[MIT License]'. See '[Introduction]' for f
 See [Key Features] for full version.
 
 ## Get Started Today
-Ready to take your testing to the next level? Explore our [Getting Started]({{site.baseurl}}/getting-started) guide to dive deep into the Play80Days framework. Learn how to set up your environment, create your first test, and add new tests to your project with ease.
+Ready to take your testing to the next level? Explore our [Getting Started] guide to dive deep into the Play80Days framework. Learn how to set up your environment, create your first test, and add new tests to your project with ease.
 
 Discover why Play80Days is the go-to solution for developers looking to simplify their end-to-end testing with Playwright. Start your journey towards more efficient and reliable testing today!
 
@@ -40,3 +40,5 @@ Discover why Play80Days is the go-to solution for developers looking to simplify
 [Introduction]: howtostart/introduction
 
 [Key Features]: howtostart/key-features
+
+[Getting Started]: howtostart/start
