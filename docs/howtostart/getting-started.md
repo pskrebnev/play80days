@@ -5,7 +5,6 @@ nav_order: 3
 permalink: /howtostart/start
 has_children: true
 ---
-
 # Getting Started
 {: .no_toc }
 
@@ -22,7 +21,7 @@ Stay [updated] on the latest developments and features.
 ## Resources:
 Explore the [tools and technologies] used to build Play80Days.
 
-----
+
 [updated]: ./../news-updates
 
 [tools and technologies]: ./../resources-tools

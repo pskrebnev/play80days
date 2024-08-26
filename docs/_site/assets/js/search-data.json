@@ -8,7 +8,7 @@
   },"1": {
     "doc": "How To Add New Tests",
     "title": "Table of contents",
-    "content": ". ",
+    "content": " ",
     "url": "/play80days/howtostart/how-to-add-new-tests#table-of-contents",
     
     "relUrl": "/howtostart/how-to-add-new-tests#table-of-contents"
@@ -105,40 +105,54 @@
     "relUrl": "/news-updates#newsupdates"
   },"15": {
     "doc": "News/Updates",
-    "title": "COURSE 'JEKYLL -- MAKE FAST, SECURE STATIC SITES AND BLOGS WITH JEKYLL'",
-    "content": "July 05, 2024 12:35 . Estimated time spent: 8.5 hours . More ... ",
+    "title": "ABOUT TEMPLATE FOR JEKYLL SITE `JUST-THE-DOCS`",
+    "content": "July 15, 2024 17:20 . After a long search for a suitable template, I settled on ‘just-the-docs’. The template is designed for generating static websites using Jekyll and hosting on GitHub Pages. The template allows: fine-tuning the site’s ... More ... ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
   },"16": {
+    "doc": "News/Updates",
+    "title": "COURSE 'ULTIMATE DOCKER FAST-TRACK BEGINNER TO ADVANCED'",
+    "content": "July 12, 2024 13:50 . Estimated time spent: 7.5 hours The course helped to gather the necessary tools: Jekyll, Ruby, and plugins into one small Container and to launch them only when needed. Main Topics: Getting started Docker images ... More ... ",
+    "url": "/play80days/news-updates",
+    
+    "relUrl": "/news-updates"
+  },"17": {
+    "doc": "News/Updates",
+    "title": "COURSE 'JEKYLL -- MAKE FAST, SECURE STATIC SITES AND BLOGS WITH JEKYLL'",
+    "content": "July 05, 2024 12:35 . Estimated time spent: 8.5 hours Course on the basics of SSG (static site generator) Jekyll. There are several products in this series: Hugo, Gatsby, Docusaurus, and many, many others. But if you want to host your site on... More ... ",
+    "url": "/play80days/news-updates",
+    
+    "relUrl": "/news-updates"
+  },"18": {
     "doc": "News/Updates",
     "title": "COURSE 'JAVA 7 &amp; JAVA 8 NEW FEATURES WITH LAMBDAS &amp; STREAMS'",
     "content": "June 12, 2024 10:20 . Estimated time spent: 35 hours This course covers the changes introduced in Java (versions 7 and 8). It’s perfect for gaining a comprehensive understanding of these changes. The course is accompanied by code examples / e... More ... ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
-  },"17": {
+  },"19": {
     "doc": "News/Updates",
     "title": "News/Updates",
     "content": " ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
-  },"18": {
+  },"20": {
     "doc": "Prerequisites",
     "title": "Prerequisites",
     "content": ". | GithHub account | JDK | Some knowledge in CLI | Any code editor (up-to-you: VS Code, IntelliJ IDEA, Sublime etc.) | Cloned or forked Project (or see Original repo) | . ",
     "url": "/play80days/howtostart/prerequisites",
     
     "relUrl": "/howtostart/prerequisites"
-  },"19": {
+  },"21": {
     "doc": "Resources / Tools / Technologies",
     "title": "In this project the following frameworks / tools are used (all links are external):",
     "content": ". | Playwright Java Test Automation Architecture The repository that was used for this project. If you liked the code, buy the girl a coffee :) . | OpenJDK | JUnit5 | Lombok | Allure Report As a report tool . | Gradle As a build tool . | IntelliJ IDEA Community version, as a code editor . | GitHub, GitHub Pages, GitHub Actions ‘GitHub Pages’ as a hosting for this static website . | Docker Docker allowed me to gather all the tools needed for generating the website and avoid the nightmare of installing / configuring Ruby, Jekyll, etc. on my laptop . | YAML | Just the Docs on GitHub As a template for this site. In case you want to change UI please refer to the original . | Jekyll (with Liquid, Ruby, Markdown) As a static website generator . | . ",
     "url": "/play80days/resources-tools#in-this-project-the-following-frameworks--tools-are-used-all-links-are-external",
     
     "relUrl": "/resources-tools#in-this-project-the-following-frameworks--tools-are-used-all-links-are-external"
-  },"20": {
+  },"22": {
     "doc": "Resources / Tools / Technologies",
     "title": "Resources / Tools / Technologies",
     "content": " ",

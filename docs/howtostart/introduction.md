@@ -18,7 +18,7 @@ This is a pet-project created with support the company [Luxoft]. The project is 
 The project is distributed under the '[MIT License]'.
 
 
-----
+
 [80days.me]: https://app.eightydays.me/
 
 [Luxoft]: https://www.luxoft.com/

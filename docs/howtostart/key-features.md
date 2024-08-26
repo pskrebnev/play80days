@@ -29,7 +29,7 @@ playwright.config().setRecordVideo(true);
 * *Supports parallel test execution:*  Parallel execution is a feature that enables multiple tests to run simultaneously, significantly reducing the overall test execution time.
 
 
----
+
 
 
 
