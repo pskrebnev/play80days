@@ -133,26 +133,33 @@
     "relUrl": "/news-updates"
   },"19": {
     "doc": "News/Updates",
+    "title": "WHAT KNOWLEDGE WAS I LACKING? (DOCKER, GITHUB ACTIONS, LINUX ETC.)",
+    "content": "June 11, 2024 10:30 . Update: What knowledge was I really missing to achieve my goal? Briefly describe the desired outcome: Framework A: Java + JUnit + Gradle + Playwright System Under Test (SUT): B website 80days.me Host C: GitHub I... More ... ",
+    "url": "/play80days/news-updates",
+    
+    "relUrl": "/news-updates"
+  },"20": {
+    "doc": "News/Updates",
     "title": "News/Updates",
     "content": " ",
     "url": "/play80days/news-updates",
     
     "relUrl": "/news-updates"
-  },"20": {
+  },"21": {
     "doc": "Prerequisites",
     "title": "Prerequisites",
     "content": ". | GithHub account | JDK | Some knowledge in CLI | Any code editor (up-to-you: VS Code, IntelliJ IDEA, Sublime etc.) | Cloned or forked Project (or see Original repo) | . ",
     "url": "/play80days/howtostart/prerequisites",
     
     "relUrl": "/howtostart/prerequisites"
-  },"21": {
+  },"22": {
     "doc": "Resources / Tools / Technologies",
     "title": "In this project the following frameworks / tools are used (all links are external):",
     "content": ". | Playwright Java Test Automation Architecture The repository that was used for this project. If you liked the code, buy the girl a coffee :) . | OpenJDK | JUnit5 | Lombok | Allure Report As a report tool . | Gradle As a build tool . | IntelliJ IDEA Community version, as a code editor . | GitHub, GitHub Pages, GitHub Actions ‘GitHub Pages’ as a hosting for this static website . | Docker Docker allowed me to gather all the tools needed for generating the website and avoid the nightmare of installing / configuring Ruby, Jekyll, etc. on my laptop . | YAML | Just the Docs on GitHub As a template for this site. In case you want to change UI please refer to the original . | Jekyll (with Liquid, Ruby, Markdown) As a static website generator . | . ",
     "url": "/play80days/resources-tools#in-this-project-the-following-frameworks--tools-are-used-all-links-are-external",
     
     "relUrl": "/resources-tools#in-this-project-the-following-frameworks--tools-are-used-all-links-are-external"
-  },"22": {
+  },"23": {
     "doc": "Resources / Tools / Technologies",
     "title": "Resources / Tools / Technologies",
     "content": " ",
