@@ -1,1 +1,17 @@
 // custom SCSS (or CSS) goes here
+p {
+  &.post-date {
+    font-family: $mono-font-family !important;
+    font-size: 0.8rem;
+  }
+}
+
+div {
+  &.post-date {
+    font-family: $mono-font-family !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}
+
+

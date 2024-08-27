@@ -1,0 +1,170 @@
+{"0": {
+    "doc": "How To Add New Tests",
+    "title": "How To Add New Tests",
+    "content": "[TBD] . ",
+    "url": "/play80days/howtostart/how-to-add-new-tests",
+    
+    "relUrl": "/howtostart/how-to-add-new-tests"
+  },"1": {
+    "doc": "How To Add New Tests",
+    "title": "Table of contents",
+    "content": " ",
+    "url": "/play80days/howtostart/how-to-add-new-tests#table-of-contents",
+    
+    "relUrl": "/howtostart/how-to-add-new-tests#table-of-contents"
+  },"2": {
+    "doc": "Training / Courses",
+    "title": "While working on the framework, I reviewed the following courses:",
+    "content": "The links provided are exclusively for Luxoft:Business accounts and only work for Luxoft employees. However, you can find similar courses on Udemy. | Jekyll: make fast, secure static sites and blogs with Jekyll . A consistent and logical course. General enough to understand the big picture and detailed enough to bring your project to life. For additional information, you can refer to the documentation or YouTube . | Ultimate Docker Fast-Track Beginner to Advanced . A decent course on Docker basics. The rest is complemented by practice. One of the key courses that helped create a site on GitHub Pages. I don’t know Ruby, Liquid etc, and I don’t want to install all that zoo on my laptop. And then maintain all the versions and plugins. All this can be done in a Docker container. | Java 7 &amp; Java 8 new features with Lambdas &amp; Streams . An interesting course on the capabilities of “Java 7” / “Java 8”. The lecturer’s pronunciation allows you to watch the videos at a speed of x1.75. The lectures are accompanied by practical examples . | Practical Java Unit Testing with JUnit 5 . The course provides an overall picture. The lecturer’s pronunciation allows videos to be watched at x2.0 speed . | GitHub Actions - The Complete Guide . A course by Maximilian Schwarzmüller. I won’t say that the course was easy for me. It’s better to brush up on Linux basics and know how specific frameworks and systems work. The rest is just practice . | Markdown Mastery: Simple yet Powerful Writing Format . Markdown is easy to use and learn. The course quickly helps you understand the basics. Practice will fill in the rest . | . ",
+    "url": "/play80days/courses#while-working-on-the-framework-i-reviewed-the-following-courses",
+    
+    "relUrl": "/courses#while-working-on-the-framework-i-reviewed-the-following-courses"
+  },"3": {
+    "doc": "Training / Courses",
+    "title": "Training / Courses",
+    "content": " ",
+    "url": "/play80days/courses",
+    
+    "relUrl": "/courses"
+  },"4": {
+    "doc": "Getting Started",
+    "title": "Getting Started",
+    "content": "Ready to take your testing to the next level? Explore our Getting Started sections one-by-one to dive deep into the Play80Days framework. Learn how to set up your environment, create your first test, and add new tests to your project with ease. Discover why Play80Days is the go-to solution for developers looking to simplify their end-to-end testing with Playwright. Start your journey towards more efficient and reliable testing today! . ",
+    "url": "/play80days/howtostart/start",
+    
+    "relUrl": "/howtostart/start"
+  },"5": {
+    "doc": "Getting Started",
+    "title": "News:",
+    "content": "Stay updated on the latest developments and features. ",
+    "url": "/play80days/howtostart/start#news",
+    
+    "relUrl": "/howtostart/start#news"
+  },"6": {
+    "doc": "Getting Started",
+    "title": "Resources:",
+    "content": "Explore the tools and technologies used to build Play80Days. ",
+    "url": "/play80days/howtostart/start#resources",
+    
+    "relUrl": "/howtostart/start#resources"
+  },"7": {
+    "doc": "Home",
+    "title": "Introduction",
+    "content": "Play80Days is a powerful and user-friendly framework designed to streamline your end-to-end testing process using Playwright. Whether you’re a seasoned developer or just starting out, our framework simplifies the complexities of browser automation, allowing you to focus on creating robust and reliable tests for your web applications. This is a pet-project created with support the company Luxoft. The project is not intended for further development. It was created to study and practically apply a set of technologies. The project is distributed under the ‘MIT License’. See ‘Introduction’ for full version. ",
+    "url": "/play80days/#introduction",
+    
+    "relUrl": "/#introduction"
+  },"8": {
+    "doc": "Home",
+    "title": "Key Features",
+    "content": ". | Cross-Browser Support: Test your applications seamlessly across multiple browsers, including Chrome, Firefox, and Safari, ensuring consistent performance and compatibility. | High-Speed Execution: Leverage Playwright’s advanced capabilities for lightning-fast test execution, reducing your testing cycles and speeding up your development process. | Easy Integration: Seamlessly integrate with your existing Java-based projects, making it a perfect fit for your development workflow. | Extensive Documentation: Our comprehensive documentation guides you through every step, from setting up your environment to creating and running tests. | . See Key Features for full version. ",
+    "url": "/play80days/#key-features",
+    
+    "relUrl": "/#key-features"
+  },"9": {
+    "doc": "Home",
+    "title": "Get Started Today",
+    "content": "Ready to take your testing to the next level? Explore our Getting Started guide to dive deep into the Play80Days framework. Learn how to set up your environment, create your first test, and add new tests to your project with ease. Discover why Play80Days is the go-to solution for developers looking to simplify their end-to-end testing with Playwright. Start your journey towards more efficient and reliable testing today! . ",
+    "url": "/play80days/#get-started-today",
+    
+    "relUrl": "/#get-started-today"
+  },"10": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/play80days/",
+    
+    "relUrl": "/"
+  },"11": {
+    "doc": "Installation/Setting Up",
+    "title": "Installation/Setting Up",
+    "content": "In order to use the framework: . | Clone (or fork) the repository. git clone [repository_url] [your_folder_path] . | Import/Open the project in your IDE. | Make your desired changes. | Use terminal or your IDE to run your desired tests. For example: ./gradlew test -Dbrowser=firefox -Dheadless=false . to run all the tests using the firefox browser in headed mode. | Build and browse the allure report using: ./gradlew allureServe . | . ",
+    "url": "/play80days/howtostart/installation",
+    
+    "relUrl": "/howtostart/installation"
+  },"12": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": "This testing framework is designed for automated testing of a website 80days.me. For more information about the tools, frameworks, and technologies used in this project, see Resources / Tools / Technologies section. Play80Days is a powerful and user-friendly framework designed to streamline your end-to-end testing process using Playwright. Whether you’re a seasoned developer or just starting out, our framework simplifies the complexities of browser automation, allowing you to focus on creating robust and reliable tests for your web applications. This is a pet-project created with support the company Luxoft. The project is not intended for further development. It was created to study and practically apply a set of technologies. The project is distributed under the ‘MIT License’. ",
+    "url": "/play80days/howtostart/introduction",
+    
+    "relUrl": "/howtostart/introduction"
+  },"13": {
+    "doc": "Key Features",
+    "title": "Key Features",
+    "content": ". | Easy Implemented: Adapt the framework for your project in a couple of clicks. | Configuration-based architecture: Easy configured for you project needs. | Data-Driven: Data Builder is a utility class responsible for creating and managing test data. It provides a flexible way to generate data for various test scenarios, allowing testers to focus on writing test scripts rather than creating and managing test data. Data Builders can be used to create test data for different formats, such as JSON, XML, or CSV. | Utilizes Page Objects and Page Component Objects: Page Object is a design pattern that represents a web page or a section of a web page as a class. It encapsulates the properties and actions that can be performed on that page, making it easier to write and maintain test scripts. Page Objects provide a clear and concise way to interact with web pages, hiding the underlying implementation details and promoting code reusability. | Automated UI Testing: Ensure your web application works seamlessly across different browsers and devices. | ‘Captures screenshot’ / ‘Records video of test execution’: This feature allows the test automation framework to capture screenshots of the application under test at specific points during test execution. This can be particularly useful for debugging purposes, as it provides a visual representation of the application’s state at the moment of failure or when an unexpected behavior occurs. The captured screenshots can be saved to a designated directory, allowing for easy access and analysis. | . // Capture screenshot on test failure playwright.config().setScreenshotOnFailure(true); // Record video of test execution playwright.config().setRecordVideo(true); . | Provides detailed test report: Gain valuable insights into test results and identify areas for improvement. | Cross-Platform Compatibility: Test your application on various operating systems and browsers. | Supports parallel test execution: Parallel execution is a feature that enables multiple tests to run simultaneously, significantly reducing the overall test execution time. | . ",
+    "url": "/play80days/howtostart/key-features",
+    
+    "relUrl": "/howtostart/key-features"
+  },"14": {
+    "doc": "News/Updates",
+    "title": "NEWS/UPDATES",
+    "content": " ",
+    "url": "/play80days/news-updates#newsupdates",
+    
+    "relUrl": "/news-updates#newsupdates"
+  },"15": {
+    "doc": "News/Updates",
+    "title": "ABOUT TEMPLATE FOR JEKYLL SITE `JUST-THE-DOCS`",
+    "content": "July 15, 2024 17:20 . After a long search for a suitable template, I settled on ‘just-the-docs’. The template is designed for generating static websites using Jekyll and hosting on GitHub Pages. The template allows: fine-tuning the site’s ... More ... ",
+    "url": "/play80days/news-updates",
+    
+    "relUrl": "/news-updates"
+  },"16": {
+    "doc": "News/Updates",
+    "title": "COURSE 'ULTIMATE DOCKER FAST-TRACK BEGINNER TO ADVANCED'",
+    "content": "July 12, 2024 13:50 . Estimated time spent: 7.5 hours The course helped to gather the necessary tools: Jekyll, Ruby, and plugins into one small Container and to launch them only when needed. Main Topics: Getting started Docker images ... More ... ",
+    "url": "/play80days/news-updates",
+    
+    "relUrl": "/news-updates"
+  },"17": {
+    "doc": "News/Updates",
+    "title": "COURSE 'JEKYLL -- MAKE FAST, SECURE STATIC SITES AND BLOGS WITH JEKYLL'",
+    "content": "July 05, 2024 12:35 . Estimated time spent: 8.5 hours Course on the basics of SSG (static site generator) Jekyll. There are several products in this series: Hugo, Gatsby, Docusaurus, and many, many others. But if you want to host your site on... More ... ",
+    "url": "/play80days/news-updates",
+    
+    "relUrl": "/news-updates"
+  },"18": {
+    "doc": "News/Updates",
+    "title": "COURSE 'JAVA 7 &amp; JAVA 8 NEW FEATURES WITH LAMBDAS &amp; STREAMS'",
+    "content": "June 12, 2024 10:20 . Estimated time spent: 35 hours This course covers the changes introduced in Java (versions 7 and 8). It’s perfect for gaining a comprehensive understanding of these changes. The course is accompanied by code examples / e... More ... ",
+    "url": "/play80days/news-updates",
+    
+    "relUrl": "/news-updates"
+  },"19": {
+    "doc": "News/Updates",
+    "title": "WHAT KNOWLEDGE WAS I LACKING? (DOCKER, GITHUB ACTIONS, LINUX ETC.)",
+    "content": "June 11, 2024 10:30 . Update: What knowledge was I really missing to achieve my goal? Briefly describe the desired outcome: Framework A: Java + JUnit + Gradle + Playwright System Under Test (SUT): B website 80days.me Host C: GitHub I... More ... ",
+    "url": "/play80days/news-updates",
+    
+    "relUrl": "/news-updates"
+  },"20": {
+    "doc": "News/Updates",
+    "title": "News/Updates",
+    "content": " ",
+    "url": "/play80days/news-updates",
+    
+    "relUrl": "/news-updates"
+  },"21": {
+    "doc": "Prerequisites",
+    "title": "Prerequisites",
+    "content": ". | GithHub account | JDK | Some knowledge in CLI | Any code editor (up-to-you: VS Code, IntelliJ IDEA, Sublime etc.) | Cloned or forked Project (or see Original repo) | . ",
+    "url": "/play80days/howtostart/prerequisites",
+    
+    "relUrl": "/howtostart/prerequisites"
+  },"22": {
+    "doc": "Resources / Tools / Technologies",
+    "title": "In this project the following frameworks / tools are used (all links are external):",
+    "content": ". | Playwright Java Test Automation Architecture The repository that was used for this project. If you liked the code, buy the girl a coffee :) . | OpenJDK | JUnit5 | Lombok | Allure Report As a report tool . | Gradle As a build tool . | IntelliJ IDEA Community version, as a code editor . | GitHub, GitHub Pages, GitHub Actions ‘GitHub Pages’ as a hosting for this static website . | Docker Docker allowed me to gather all the tools needed for generating the website and avoid the nightmare of installing / configuring Ruby, Jekyll, etc. on my laptop . | YAML | Just the Docs on GitHub As a template for this site. In case you want to change UI please refer to the original . | Jekyll (with Liquid, Ruby, Markdown) As a static website generator . | . ",
+    "url": "/play80days/resources-tools#in-this-project-the-following-frameworks--tools-are-used-all-links-are-external",
+    
+    "relUrl": "/resources-tools#in-this-project-the-following-frameworks--tools-are-used-all-links-are-external"
+  },"23": {
+    "doc": "Resources / Tools / Technologies",
+    "title": "Resources / Tools / Technologies",
+    "content": " ",
+    "url": "/play80days/resources-tools",
+    
+    "relUrl": "/resources-tools"
+  }
+}
