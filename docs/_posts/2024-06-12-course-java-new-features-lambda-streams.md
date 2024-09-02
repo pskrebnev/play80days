@@ -3,6 +3,7 @@ title: Course 'Java 7 & Java 8 new features with Lambdas & Streams'
 layout: post
 date: 2024-06-12 10:20
 image: /assets/images/posts/2024-06-12-java-7-8-new-features.webp
+tags: ["June-2024"]
 ---
 
 {% if page.image %}

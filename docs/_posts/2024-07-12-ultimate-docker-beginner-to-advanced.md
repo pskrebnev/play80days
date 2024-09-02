@@ -3,6 +3,7 @@ title: Course 'Ultimate Docker Fast-Track Beginner to Advanced'
 layout: post
 date: 2024-07-12 13:50
 image: /assets/images/posts/2024-07-12-ultimate-docker-beginner-to-advanced.webp
+tags: ["July-2024"]
 ---
 
 {% if page.image %}

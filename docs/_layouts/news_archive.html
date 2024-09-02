@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+# News for {{ page.month }}
+{: .no_toc }
+
+{% assign posts_by_month = site.posts | where_exp: "post", "post.date | date: '%B-%Y' == page.month" %}
+
+{% for post in posts_by_month %}
+<article class="post">
+  <h3 class="post-lead">{{ post.title | upcase }}</h3>
+  <p class="post-date">{{ post.date | date: "%B %d, %Y %H:%M" }}</p>
+
+  {% if post.image %}
+  <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" width="200">
+  {% endif %}
+
+  <p>{{ post.content | strip_html | truncate: 250 }}</p>
+
+  <p><a href="{{ site.baseurl }}{{ post.url }}">More ...</a></p>
+</article>
+<hr>
+{% endfor %}
+

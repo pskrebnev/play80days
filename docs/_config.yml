@@ -85,6 +85,11 @@ search:
 # For copy button on code
 enable_copy_code_button: false
 
+# For collections of news (grouped by month)
+collections:
+  news_archives:
+    output: true
+
 # By default, consuming the theme as a gem leaves mermaid disabled; it is opt-in
 mermaid:
   # Version of mermaid library

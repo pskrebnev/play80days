@@ -3,6 +3,7 @@ title: What Knowledge Was I Lacking? (Docker, GitHub Actions, Linux etc.)
 layout: post
 date: 2024-06-11 10:30
 image: /assets/images/posts/2024-06-11-what-knowledge-was-i-lacking.webp
+tags: ["June-2024"]
 ---
 
 <div class="post-date">

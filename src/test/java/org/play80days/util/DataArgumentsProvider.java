@@ -27,3 +27,4 @@ public class DataArgumentsProvider implements ArgumentsProvider, AnnotationConsu
     return Stream.of(CsvToDtoMapper.map(clazz, fileName, id)).map(Arguments::of);
   }
 }
+

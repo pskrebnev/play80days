@@ -3,6 +3,7 @@ title: About template for Jekyll site `just-the-docs`
 layout: post
 date: 2024-07-15 17:20
 image: /assets/images/posts/2024-07-15-about-template-jtd-search-functionality.webp
+tags: ["July-2024"]
 ---
 
 <div class="post-date">
