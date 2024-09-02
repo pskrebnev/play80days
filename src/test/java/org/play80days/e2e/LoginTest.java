@@ -2,23 +2,19 @@ package org.play80days.e2e;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
-import com.microsoft.playwright.Browser;
 import io.github.artsok.ParameterizedRepeatedIfExceptionsTest;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
-import java.nio.file.Paths;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.TestInfo;
 import org.play80days.annotation.IDataSource;
 import org.play80days.annotation.ISmoke;
 import org.play80days.annotation.IValidation;
-import org.play80days.config.ConfigurationManager;
 import org.play80days.dto.LoginDto;
-import org.play80days.ui.page.LoginPage;
 import org.play80days.ui.page.ProductsPage;
 
 
@@ -26,30 +22,10 @@ import org.play80days.ui.page.ProductsPage;
 public class LoginTest extends BaseTest {
 
   private static final String CSV_PATH = "login.csv";
-  private static final String VIDEO_PATH = "login/";
 
   @BeforeEach
-  public void createBrowserContextAndPageAndLoginPageInstances(TestInfo testInfo) {
-    String testMethodName =
-        (testInfo.getTestMethod().isPresent())
-            ? testInfo.getTestMethod().get().getName()
-            : "";
-
-    if (ConfigurationManager.config().video()) {
-      browserContext =
-          browser.newContext(
-              new Browser.NewContextOptions()
-                  .setRecordVideoDir(
-                      Paths.get(
-                          ConfigurationManager.config().baseTestVideoPath()
-                              + VIDEO_PATH
-                              + testMethodName)));
-    } else {
-      browserContext = browser.newContext();
-    }
-
-    page = browserContext.newPage();
-    loginPage = createInstance(LoginPage.class);
+  public void setUp(TestInfo testInfo) {
+    createBrowserContextAndPageAndLoginPageInstances(testInfo);
   }
 
   @Attachment(value = "Failed Test Case Screenshot", type = "image/png")

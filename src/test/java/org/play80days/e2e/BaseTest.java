@@ -7,10 +7,13 @@ import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
+import java.nio.file.Paths;
 import java.util.Optional;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.TestInfo;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.TestInstance.Lifecycle;
 import org.junit.jupiter.api.extension.AfterTestExecutionCallback;
@@ -30,6 +33,8 @@ public abstract class BaseTest {
   protected Page page;
   protected LoginPage loginPage;
 
+  private static final String VIDEO_PATH = "login/";
+
   @RegisterExtension
   AfterTestExecutionCallback callback =
       context -> {
@@ -45,6 +50,32 @@ public abstract class BaseTest {
   protected <T extends BasePage> T createInstance(Class<T> basePage) {
     return BasePageFactory.createInstance(page, basePage);
   }
+
+  @BeforeEach
+  public void createBrowserContextAndPageAndLoginPageInstances(TestInfo testInfo) {
+    String testMethodName =
+        (testInfo.getTestMethod().isPresent())
+            ? testInfo.getTestMethod().get().getName()
+            : "";
+
+    if (ConfigurationManager.config().video()) {
+      browserContext =
+          browser.newContext(
+              new Browser.NewContextOptions()
+                  .setRecordVideoDir(
+                      Paths.get(
+                          ConfigurationManager.config().baseTestVideoPath()
+                              + VIDEO_PATH
+                              + testMethodName)));
+    } else {
+      browserContext = browser.newContext();
+    }
+    System.out.println("Running test: " + testInfo.getDisplayName());
+
+    page = browserContext.newPage();
+    loginPage = createInstance(LoginPage.class);
+  }
+
 
   @BeforeAll
   public void createPlaywrightAndBrowserInstancesAndSetupAllureEnvironment() {
